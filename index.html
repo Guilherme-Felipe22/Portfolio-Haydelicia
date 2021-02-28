@@ -14,6 +14,14 @@
 <body>
     
     <div class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
@@ -24,7 +32,90 @@
                 <button>Saiba mais</button>
             </div>
         </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-instagram "></i></a>
+                <a href="#"><i class="fa fa-phone"></i></a>
+            </div>
+        </aside>
+
+       <section class="sessao-projetos">
+           <div class="sessao-header">
+               <h1>Projetos</h1>
+           </div>
+           <div class="projetos">
+               <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="imagens/proj1.jpg" alt="Imagem do Projeto 1">
+                   </div>
+                   <div class="card-info">
+                       <h2>Projeto 1</h2>
+                       <h3>Info Porjeto</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime et deserunt accusantium repellendus placeat molestiae reiciendis quod voluptate sint totam, nesciunt sit esse quos tenetur cum labore beatae quasi facere!</p>
+                       <button class="btn">Saiba Mais</button>
+                   </div>
+                </div>
+                <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="imagens/proj2.jpg" alt="Imagem do Projeto 2">
+                   </div>
+                   <div class="card-info">
+                       <h2>Projeto 2</h2>
+                       <h3>Info Projeto</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eum iure officia quia a minima repellendus in aliquam nesciunt maxime possimus, eaque perspiciatis voluptas, fugit, officiis corrupti ipsam rem? Labore?</p>
+                       <button class="btn">Saiba Mais</button>
+                   </div>
+                </div>
+                <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="imagens/proj3.jpg" alt="Imagem do Projeto 3">
+                   </div>
+                   <div class="card-info">
+                       <h2>Projeto 3</h2>
+                       <h3>Info Projeto</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam distinctio unde officiis fugiat esse eos voluptatum repellat suscipit, odit reprehenderit ipsam inventore totam sit dolore aut fugit molestiae voluptatem!</p>
+                       <button class="btn">Saiba Mais</button>
+                   </div>
+               </div>
+           </div>
+       </section> 
+
+       <section class="sessao-contato">
+           <div class="contato-wrapper">
+               <div class="contato-left"></div>
+               <div class="contato-right">
+                   <h1>Contato</h1>
+                   <form>
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="field" id="mensagem"></textarea>
+                        <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Enviar</button>
+                   </form>
+               </div>
+           </div>
+       </section>
     </div>
 
 </body>
+
+    <script src="script.js"></script>
 </html>

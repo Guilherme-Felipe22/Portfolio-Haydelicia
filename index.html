@@ -95,18 +95,22 @@
                <div class="contato-left"></div>
                <div class="contato-right">
                    <h1>Contato</h1>
-                    <form action="processaForm.php" method="POST">
+                    <form action="https://formsubmit.co/guilhermefrm2208@gmail.com" method="POST">
                         <div class="input-group">
                             <input type="text" class="field" id="nome" name="nome">
-                            <label for="nome" class="field-label">Nome</label>
+                            <label for="nome" class="field-label" name="nome">Nome</label>
                         </div>
                         <div class="input-group">
                             <input type="text" class="field" id="email" name="email">
-                            <label for="email" class="field-label">Email</label>
+                            <label for="email" class="field-label" name="email">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="telefone" name="telefone">
+                            <label for="email" class="field-label" name="telefone">Telefone</label>
                         </div>
                         <div class="input-group">
                             <textarea class="field" id="mensagem" name="mensagem"></textarea>
-                            <label for="mensagem" class="field-label">Mensagem</label>
+                            <label for="mensagem" class="field-label" name="mensagem">Mensagem</label>
                         </div>
                         <button type="submit" class="btn btn-submit">Enviar</button>
                     </form>
